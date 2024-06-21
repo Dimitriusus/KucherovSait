@@ -1,0 +1,374 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    box-sizing: border-box;
+}
+
+.first-block {
+    height: 700px;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+.first-block .row {
+    height: 100%;
+}
+
+.first-block .col img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.text-center {
+    padding-top: 50px;
+}
+
+.second-block {
+    height: 1920px;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    background: url('./assets/img/photo_2024-06-20_18-36-38.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-block .row {
+    margin-top: 50px;
+}
+
+.second-block .col h3 {
+    margin-bottom: 30px;
+}
+
+.second-block .col ul {
+    list-style-type: nonу;
+    padding: 0;
+}
+
+.second-block .col ul li {
+    margin-bottom: 10px;
+}
+
+.skills{
+    background-image: url(/assets/img/photo_2024-06-20_18-36-38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skills .container .leftsite,.rightsite{
+    background-color: rgb(33, 33, 33);
+    border-radius: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.skills .container .leftsite h1{
+    font-size:60px;
+    margin-bottom: 70px;
+    color:#ffffff;
+    font-weight: 600;
+}
+.skills .container .rightsite h1{
+    font-size:60px;
+    margin-bottom: 70px;
+    color:#ffffff;
+    font-weight: 600;
+}
+.skills .container .leftsite h2{
+    font-size:35px;
+    margin-bottom: 15px;
+    color:#ffffff;
+    text-decoration: underline;
+}
+.skills .container .rightsite h2{
+    font-size:35px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color:#ffffff;
+}
+.skills .container .leftsite p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color:#ffffff;
+}
+.skills .container .rightsite p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color:#ffffff;
+}
+
+/* Styles for the second block end here */
+
+.third-block {
+    height: 1400px;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    background: url('./assets/img/photo_2024-06-20_18-36-38.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio-description {
+    background: url('./assets/img/photo_2024-06-20_18-15-41.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 0.9;
+}
+
+.portfolio-works {
+    background: url('./assets/img/photo_2024-06-20_18-15-41.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: .9;
+}
+
+.work-item {
+    margin-bottom: 30px;
+}
+
+.work-item h3 {
+    margin-bottom: 10px;
+}
+
+.work-item .btn {
+    margin-bottom: 10px;
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
+
+.skills{
+    background-image: url(/assets/img/photo_2024-06-20_18-36-38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skills .container .leftsite,.rightsite{
+    background-color: rgb(33, 33, 33);
+    border-radius: 60px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: calc(100% - 600px);
+}
+.skills .container .leftsite h1{
+    font-size:60px;
+    margin-bottom: 70px;
+    color:#ffffff;
+    font-weight: 600;
+}
+.skills .container .rightsite h1{
+    font-size:60px;
+    margin-bottom: 70px;
+    color:#ffffff;
+    font-weight: 600;
+}
+.skills .container .leftsite h2{
+    font-size:35px;
+    margin-bottom: 15px;
+    color:#ffffff;
+    text-decoration: underline;
+}
+.skills .container .rightsite h2{
+    font-size:35px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color:#ffffff;
+}
+.skills .container .leftsite p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color:#ffffff;
+}
+.skills .container .rightsite p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color:#ffffff;
+}
+
+.form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+}
+.form .container h1{
+    text-align: center;
+    font-size:60px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color:#111111;
+}
+.form .container form{
+    font-family: "Montserrat", sans-serif;
+    font-size:20px;
+    color:#111111;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form .container .form-control{
+    border-radius: 15px;
+    border:1px solid #dddddd;
+    margin-bottom: 20px;
+}
+.form .container button{
+    border:none;
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    color:white;
+    font-weight: 500;
+    font-size:20px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    transition: 0.5s;
+}
+.form .container button:hover{
+    background-color: #222222;
+    transition: 0.5s;
+}
+/* Styles for the fourth block end here */
+
+.fifth-block {
+    height: 820px;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    background: url('./assets/img/photo_2024-06-20_18-36-38.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fifth-block .row {
+    margin-top: 50px;
+}
+
+.fifth-block .col h2, .fifth-block .col h3 {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 0.9;
+    color: #333;
+}
+
+.contact-info {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 0.9;
+    color: #333;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #fff;
+}
+
+footer .container .right{
+    text-align: right;
+}
+footer{
+    background-color: #111111;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer .container p{
+    font-size:20px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 0px;
+}
